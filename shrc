@@ -1,6 +1,7 @@
 #!/bin/bash
 
-alias ll='ls -Fal'
+alias ll='ls -Fl'
+alias la='ls -Fal'
 alias l='ll'
 
 alias g='git'
@@ -8,3 +9,4 @@ alias gs='git status'
 alias gd='git diff'
 alias ga='git add'
 alias gc='git commit'
+alias gl='git log --oneline --graph --all'
