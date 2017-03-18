@@ -9,4 +9,5 @@ alias gs='git status'
 alias gd='git diff'
 alias ga='git add'
 alias gc='git commit'
-alias gl='git log --oneline --graph --all'
+alias gl="git log --oneline --graph --all --pretty=format:'%Cred%h %C(reset)%C(green)(%cr)%C(reset) %C(bold blue)%an%C(reset)%C(red)%d%C(reset) %s'"
+
