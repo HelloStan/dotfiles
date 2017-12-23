@@ -25,6 +25,12 @@ set ignorecase
 set smartcase
 set incsearch
 
+" Remapping
+vnoremap < <gv
+vnoremap > >gv
+vnoremap = =gv
+vnoremap p "_dP
+
 set laststatus=2
 set statusline=   " clear the statusline for when vimrc is reloaded
 set statusline+=%-3.3n\                      " buffer number
