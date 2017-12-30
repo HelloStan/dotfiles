@@ -23,4 +23,5 @@ EOL
 
 ln -s -f $dotfiles_path/vimrc ~/.vimrc
 ln -s -f $dotfiles_path/tmux.conf ~/.tmux.conf
+ln -s -f $dotfiles_path/gitconfig ~/.gitconfig
 
