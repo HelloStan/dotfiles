@@ -25,6 +25,8 @@ set ignorecase
 set smartcase
 set incsearch
 
+set linebreak
+
 " Remapping
 vnoremap < <gv
 vnoremap > >gv
