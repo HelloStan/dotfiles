@@ -2,3 +2,6 @@
     name = echo
     email = echo01248@gmail.com
 
+[core]
+    excludesfile = ~/.gitignore
+

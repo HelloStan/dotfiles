@@ -29,5 +29,7 @@ ln -s -f $dotfiles_path/vimrc ~/.ideavimrc
 ln -s -f $dotfiles_path/tmux.conf ~/.tmux.conf
 
 read -e -p "Set .gitconfig? " choice
-[[ "$choice" == [Yy]* ]] && ln -s -f $dotfiles_path/gitconfig ~/.gitconfig
+[[ "$choice" == [Yy]* ]] && \
+    ln -s -f $dotfiles_path/gitconfig ~/.gitconfig; \
+    ln -s -f $dotfiles_path/gitignore ~/.gitignore
 
