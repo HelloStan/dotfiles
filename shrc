@@ -9,7 +9,15 @@ alias gs='git status'
 alias gd='git diff'
 alias ga='git add'
 alias gc='git commit'
-alias gl="git log --oneline --graph --all --pretty=format:'%Cred%h %C(reset)%C(green)(%cr)%C(reset) %C(bold blue)%an%C(reset)%C(red)%d%C(reset) %s'"
+alias gl="git log --oneline --graph --pretty=format:'%Cred%h %C(reset)%C(green)(%cr)%C(reset) %C(bold blue)%an%C(reset)%C(red)%d%C(reset) %s'"
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+if [ "/usr/local/anaconda3/bin" ]; then
+    export PATH="/usr/local/anaconda3/bin:$PATH"
+fi
+
+if [ ! "~/anaconda3/etc/profile.d/conda.sh" ]; then
+    source ~/anaconda3/etc/profile.d/conda.sh
+fi
